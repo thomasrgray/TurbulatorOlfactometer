@@ -1,0 +1,6 @@
+[submodule "pcb/libs"]
+	path = pcb/libs
+	url = git@github.com:thomasgray/kicad-libraries.git
+[submodule "hugo/themes/book"]
+	path = hugo/themes/book
+	url = https://github.com/thomasgray/hugo-book.git
