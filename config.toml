@@ -1,0 +1,129 @@
+baseURL = "https://thomasrgray.github.io/TurbulatorOlfactometer/"
+title = "Turbulator Olfactometer"
+languageCode = "en"
+DefaultContentLanguage = "en" # Change this to change the site's language
+theme = "hugo.386"
+preserveTaxonomyNames = true
+
+[params]
+    # The name to display as main title in the home page
+    mainpagetitle = "Documentation for a Turbulator inspired Olfactometer"
+
+    # The subtitle to display under the title in the home page
+    mainpagesubtitle = "Overview of this documentation and usage guide" 
+
+    # The description of your website. It will be displayed in the home page
+    mainpagedesc = "This guide aims to make the construction and implementation of The Turbulator straightforward and simple. This exciting olfactometer was developed by Matt Wachowiak at the University of Utah and recreated (with his help) in the Katz Lab at Brandeis University."
+
+    # The name to display in the copyright section in the footer
+    copyrightname = "JM Fergeau"
+
+    # The url to use as link in the copyright name in the footer. Leave empty to use none.
+    copyrighturl = "http://jmf-portfolio.netlify.com"
+
+    # Show the "built on Hugo" disclaimer
+    showhugo = true
+
+    # Urls for social networks
+    researchgate = "https://facebook.com"
+    twitter = "https://twitter.com"
+    linkedin = "https://linkedin.com"
+    github = "https://github.com"
+    labsite = "https://gitlab.com"
+
+    # Enables or disables the loading animations. false activates them. Default is false.
+    loadfastload = true
+
+    # Sets the speed for the page loading effect. Default is 1.0.
+    loadspeedfactor = 0.25
+
+    # Enables or disables the second flyby cursor. Default is false.
+    loadonepass = true
+
+[params.copyright]
+    name = "JM Fergeau"
+
+    # The url to use as link in the copyright name in the footer. Leave empty to use none.
+    url = "http://jmf-portfolio.netlify.com"
+
+    # Text to go before copyright information
+    prefix = "[hugo.386 theme by Max le Fou](https://gitlab.com/maxlefou/hugo.386)"
+
+    # Text to go between copyright and hugo disclaimer (if enabled)
+    suffix = "Example site"
+
+[menu]
+  # This displays buttons in the navbar to access your contents
+  [[menu.main]]
+    identifier = "overview" # An unique identifier for the button
+    name = "Overview"       # A display name for the button
+    url = "https://thomasrgray.github.io/TurbulatorOlfactometer/content/pages/about/"      # The path to the content. It can lead to a single page (like here)
+    weight = 10          # A number to order the buttons in the navbar
+  
+  [[menu.main]]
+    identifier = "overview" # An unique identifier for the button
+    name = "Overview"       # A display name for the button
+    url = "https://thomasrgray.github.io/TurbulatorOlfactometer/content/pages/overview/"      # The path to the content. It can lead to a single page (like here)
+    weight = 20          # A number to order the buttons in the navbar
+  
+  [[menu.main]]
+    identifier = "bill of materials" # An unique identifier for the button
+    name = "Bill of Materials"       # A display name for the button
+    url = "https://thomasrgray.github.io/TurbulatorOlfactometer/content/pages/billofmaterials/"      # The path to the content. It can lead to a single page (like here)
+    weight = 30          # A number to order the buttons in the navbar
+
+  [[menu.main]]
+    identifier = "design files" # An unique identifier for the button
+    name = "Design Files"       # A display name for the button
+    url = "https://thomasrgray.github.io/TurbulatorOlfactometer/content/pages/designfiles/"      # The path to the content. It can lead to a single page (like here)
+    weight = 40          # A number to order the buttons in the navbar
+
+  [[menu.main]]
+    identifier = "construction" # An unique identifier for the button
+    name = "Construction"       # A display name for the button
+    url = "https://thomasrgray.github.io/TurbulatorOlfactometer/content/pages/construction/"      # The path to the content. It can lead to a single page (like here)
+    weight = 50          # A number to order the buttons in the navbar
+
+  [[menu.main]]
+    identifier = "implementation and usage" # An unique identifier for the button
+    name = "Implementation and Usage"       # A display name for the button
+    url = "https://thomasrgray.github.io/TurbulatorOlfactometer/content/pages/implementationandusage/"      # The path to the content. It can lead to a single page (like here)
+    weight = 60          # A number to order the buttons in the navbar
+
+  [[menu.main]]
+    identifier = "posts"
+    name = "All posts"
+    url = "content/post/"       # The path can lead to a content folder too.
+    weight = 70
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+
+
+[privacy]
+
+  [privacy.vimeo]
+    disabled = false
+    simple = true
+
+  [privacy.twitter]
+    disabled = false
+    enableDNT = true
+    simple = true
+
+  [privacy.instagram]
+    disabled = false
+    simple = true
+
+  [privacy.youtube]
+    disabled = false
+    privacyEnhanced = true
+
+[services]
+
+  [services.instagram]
+    disableInlineCSS = true
+
+  [services.twitter]
+    disableInlineCSS = true
